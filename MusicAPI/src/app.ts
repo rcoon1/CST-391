@@ -25,9 +25,8 @@ if(process.env.NODE_ENV !== 'production') {
     app.use(logger);
     console.log(process.env.GREETING + ' in dev mode');
 }
+app.use('/', [albumsRouter, artistsRouter]);
 
 app.listen(port, () => {
     console.log(`Example app listening on at http://localhost:${port}`)
 });
-
-app.use('/', [albumsRouter, artistsRouter]);
