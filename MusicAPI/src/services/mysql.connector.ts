@@ -1,10 +1,9 @@
-import { query } from 'express';
-import { Pool, createPool } from 'mysql';
-
+import { createPool, Pool } from 'mysql';
 let pool: Pool | null = null;
 
 const initializeMySqlConnector = () => {
   try {
+    
     pool = createPool({
       connectionLimit: parseInt(process.env.MYSQL_CONNECTION_LIMIT != undefined ? process.env.MYSQL_CONNECTION_LIMIT : ""),
       port: parseInt(process.env.MYSQL_PORT != undefined ? process.env.MYSQL_PORT : ""),
@@ -17,7 +16,7 @@ const initializeMySqlConnector = () => {
     console.debug('MySql Adapter pool generated successfully');
     console.log('process.env.DB_DATABASE', process.env.MY_SQL_DB_DATABASE);
 
-    pool.getConnection((err: any, connection: { release: () => void; }) => {
+    pool.getConnection((err,connection) => {
       if (err) {
         console.error('Error connecting to MySql database', err);
         throw new Error('not able to connect to database');
