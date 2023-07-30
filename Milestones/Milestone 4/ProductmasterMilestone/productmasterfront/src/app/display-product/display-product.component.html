@@ -16,7 +16,7 @@
                 <p class="card-text">Name: {{ products!.name }}</p>
                 <p class="card-text">Price: {{ products!.price }}</p>
                 <p class="card-text">Description: {{ products!.description}}</p>
-                <p class="card-text"><small class="text-muted">On Hand: {{ products!.onHand }}</small></p>
+                <p class="card-text">On Hand: {{ products!.onHand }}</p>
             </div>
             <button type="submit" (click)="onEditProduct(products!)" class=btn btn-primary>Edit</button>
             <button type="submit" (click)="onDeleteProduct(products!)" class=btn btn-primary>Delete</button>
