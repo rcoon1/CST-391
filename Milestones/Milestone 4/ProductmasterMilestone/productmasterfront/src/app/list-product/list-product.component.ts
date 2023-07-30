@@ -17,7 +17,6 @@ export class ListProductComponent {
 
   ngOnInit() {
     console.log("Getting data...");
-    //his.albums = this.service.getAlbums(this.artist.Name);
     this.service.getProducts((product: products[]) => {
       this.product = product;
       console.log('this.product', this.product);
