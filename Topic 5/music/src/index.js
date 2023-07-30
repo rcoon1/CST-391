@@ -11,6 +11,7 @@ const App = () => {
                 albumTitle="Enema of the State"
                 albumDescription="Enema of the State is the third studio album by American rock band Blink-182, released on June 1, 1999, by MCA Records."
                 imgURL="https://upload.wikimedia.org/wikipedia/en/a/a6/Blink-182_-_Enema_of_the_State_cover.jpg"
+                buttonUrl="https://youtu.be/K7l5ZeVVoCA"
                 buttonText="OK"
             />
             <Card
