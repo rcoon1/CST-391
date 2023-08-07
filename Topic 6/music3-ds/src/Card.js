@@ -7,7 +7,7 @@ const Card = (props) => {
             <div className="card-body">
                 <h5 className="card-title">{props.albumTitle}</h5>
                 <p className="card-text"> {props.albumDescription}</p>
-                <button onClick={()=> props.buttonUrl()} className="btn btn-primary">{props.buttonText}</button>
+                <button href="#" className="btn btn-primary">{props.buttonText}</button>
             </div>
         </div>
     );
