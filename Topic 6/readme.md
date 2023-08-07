@@ -8,25 +8,25 @@ Professor Bobby Estey
 
 August 6, 2023
 
-Github source URL:
+Github source URL: https://github.com/rcoon1/CST-391/tree/main/Topic%206 
 
 Part 3: External Data Source
 
 Screenshots:
 
-![](RackMultipart20230807-1-s05neg_html_17769341fcf68f48.png)
+![Alt text](<Screenshot 2023-08-06 at 5.26.57 PM.png>)
 
 Here we have the application up and trying to use the search function through out .JSON file.
 
-![](RackMultipart20230807-1-s05neg_html_76e4ffac0b9cbb06.png)
+![Alt text](<Screenshot 2023-08-06 at 6.00.21 PM.png>)
 
 Here is the application up and running alongside our music api datasource.
 
-![](RackMultipart20230807-1-s05neg_html_fcffffdf728680b5.png)
+![Alt text](<Screenshot 2023-08-06 at 6.00.54 PM.png>)
 
 With the music api as the datasource, we can now use the search function correctly.
 
-![](RackMultipart20230807-1-s05neg_html_5e3bc216aca8f1de.png)
+![Alt text](<Screenshot 2023-08-06 at 6.03.29 PM.png>)
 
 Added a little bit to the console to make it easier to follow.
 
@@ -40,39 +40,39 @@ Mini App 2:
 
 Screenshots:
 
-![](RackMultipart20230807-1-s05neg_html_a399d502619e526d.png)
+![Alt text](<Screenshot 2023-08-06 at 7.44.41 PM.png>)
 
 Here is the main page of the mini application
 
-![](RackMultipart20230807-1-s05neg_html_f059b150c82c8f4.png)
+![Alt text](<Screenshot 2023-08-06 at 7.44.52 PM.png>)
 
 Here we tried to click About us and got told we needed to login.
 
-![](RackMultipart20230807-1-s05neg_html_a4ed89110f2e332f.png)
+![Alt text](<Screenshot 2023-08-06 at 7.45.00 PM.png>)
 
 Here is the about us after logging in.
 
-![](RackMultipart20230807-1-s05neg_html_aa747aa285609ec3.png)
+![Alt text](<Screenshot 2023-08-06 at 7.45.11 PM.png>)
 
 Contact us page after logging in.
 
-![](RackMultipart20230807-1-s05neg_html_29b62a20c0c92bfc.png)
+![Alt text](<Screenshot 2023-08-06 at 7.45.20 PM.png>)
 
 Here is the user page while being logged in.
 
-![](RackMultipart20230807-1-s05neg_html_2f2b590170e93ad1.png)
+![Alt text](<Screenshot 2023-08-06 at 7.45.29 PM.png>)
 
 Friend mary after clicking her name.
 
-![](RackMultipart20230807-1-s05neg_html_d7d055ab760412be.png)
+![Alt text](<Screenshot 2023-08-06 at 7.45.34 PM.png>)
 
 Friend Justine after clicking her name
 
-![](RackMultipart20230807-1-s05neg_html_9edac5e1d2d28377.png)
+![Alt text](<Screenshot 2023-08-06 at 7.45.40 PM.png>)
 
 Friend Brianna after clicking her name.
 
-![](RackMultipart20230807-1-s05neg_html_c1f69afc9f08facc.png)
+![Alt text](<Screenshot 2023-08-06 at 7.45.49 PM.png>)
 
 Friend David after clicking his name.
 
@@ -88,15 +88,15 @@ Part 4 Navigation Routing:
 
 Screenshots:
 
-![](RackMultipart20230807-1-s05neg_html_5b798092528d77da.png)
+![Alt text](<Screenshot 2023-08-06 at 9.18.23 PM.png>)
 
 Here is the landing page with routing completed and running with our musicapi
 
-![](RackMultipart20230807-1-s05neg_html_1846eed7abb2e95.png)
+![Alt text](<Screenshot 2023-08-06 at 9.18.49 PM.png>)
 
 Here is the new album form(not Complete in this part)
 
-![](RackMultipart20230807-1-s05neg_html_b655232a61a5e425.png)
+![Alt text](<Screenshot 2023-08-06 at 9.19.58 PM.png>)
 
 Here we searched for the keyword yellow.
 
