@@ -8,9 +8,9 @@ Professor Bobby Estey
 
 August 13, 2023
 
-Markdown File URL:
+Markdown File URL: https://github.com/rcoon1/CST-391/tree/main/Topic%207
 
-Source code URL:
+Source code URL: https://github.com/rcoon1/CST-391/tree/main/Topic%207
 
 Part 1 Mini Application
 
