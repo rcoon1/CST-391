@@ -7,14 +7,11 @@ import { useLocation,useParams } from 'react-router-dom';
 const OneAlbum = (props) => {
     const [currentTrack, setCurrentTrack] = useState({});
     const location = useLocation();
-    const {albumId, trackId} = useParams();
+    const {trackId} = useParams();
 
     useEffect(()=>{
-        console.log('Query params :'+trackId);
         const oneTrack = props.album.tracks.filter((track)=> {
-            console.log('Iterate  :'+track.title+track.trackId);
             if(Number.parseInt(track.trackId)===Number.parseInt(trackId)) {
-                console.log("GOT HERE.");
                 return true;
             } else {
                 return false;
@@ -23,7 +20,6 @@ const OneAlbum = (props) => {
         if(oneTrack.length===0) {
             setCurrentTrack(props.album.tracks[0]);
         } else {
-            console.log('Current track'+oneTrack[0].title);
             setCurrentTrack(oneTrack[0]);
         }
     },[props.album.tracks, location, trackId]);
@@ -49,13 +45,13 @@ const OneAlbum = (props) => {
                             </div>
                         </div>
                     </div>
-                    <div className='col col-sm-9'>
+                    <div className='column right'>
                         <TrackLyrics lyrics={currentTrack.lyrics} />
                         <TrackVideo video={currentTrack.video} />
                     </div>
-                    <a href='/#' className='btn btn-primary'>
+                    <button href='/#' className='btn btn-primary'>
                                     Edit Tracks
-                                </a>
+                                </button>
                 </div>
         </div>
     );

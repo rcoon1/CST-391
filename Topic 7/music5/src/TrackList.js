@@ -1,6 +1,6 @@
 import React from "react";
 import TrackTitle from "./TrackTitle";
-
+//get list of tracks from the datasource
 const TrackList = (props) => {
     const tracks = props.tracks.map((track)=>{
         return (
