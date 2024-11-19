@@ -1,0 +1,13 @@
+<p>list-product works!</p>
+<div class="list-group" *ngIf="selectedProduct == null">
+    <button class="list-group-item" active *ngFor="let product of product" (click)="onSelectProduct(product)">
+        <table align="center">
+            <tr>
+                <td width="20%"></td>
+                <td>{{ product.name }}</td>
+            </tr>
+        </table>
+    </button>
+</div>
+
+<app-display-product *ngIf="selectedProduct" [products]="selectedProduct"></app-display-product>

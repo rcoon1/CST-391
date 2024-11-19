@@ -1,0 +1,34 @@
+<div class="container">
+
+  <h1>Welcome to {{ title }}</h1>
+
+
+  <nav class="navbar navbar-light navbar-expand-md navigation-clean-button">
+
+    <div class="d-flex justify-content-center" id="navbarNav">
+      <div style="margin: 30px auto;">
+        <div class="navbar-nav">
+          <li class="nav-item px-lg-5 px-sm-3 px-1">
+          <button type="button" class="btn btn-outline-dark" href="#">Products</button>
+        </li>
+        <li class="nav-item px-lg-5 px-sm-3 px-1">
+          <button type="button" class="btn btn-outline-dark" href="https://www.gcu.edu" target="_blank">GCU Home Page</button>
+          </li>
+          <li class="nav-item px-lg-5 px-sm-3 px-1">
+          <button type="button" class="btn btn-outline-dark" routerLink="/create">Add New Product</button>
+          </li>
+          <li class="nav-item px-lg-5 px-sm-3 px-1">
+          <button type="button" class="btn btn-outline-dark" routerLink="/delete">Delete Product</button>
+          </li>
+          <li class="nav-item px-lg-5 px-sm-3 px-1">
+          <button type="button" class="btn btn-outline-dark" (click)="displayProductList()">Products List</button>
+          </li>
+          <li class="nav-item px-lg-5 px-sm-3 px-1">
+          <button type="button" class="btn btn-outline-info" (click)="displayVersion()">About</button>
+          </li>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <router-outlet></router-outlet>

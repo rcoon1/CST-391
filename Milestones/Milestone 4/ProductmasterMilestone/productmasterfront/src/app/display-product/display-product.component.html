@@ -1,0 +1,28 @@
+<p>display-product works!</p>
+<div align="center">
+    <div class="card mb-6" style="max-width: 500px;">
+        <div class="row no-gutters">
+            <div class="col-md-4">
+                <div style="height:150px; text-align:center; width:150px;overflow:hidden;">
+                    <img src="{{ products!.image }}" class="card-img" width="150px"
+                        height="150px">
+                </div>
+            </div>
+    <div class="card mb-6" *ngIf="editProducts == null" style="max-width: 500px;">
+        <div class="col-md-8">
+            <div class="card-body">
+                <h5 class="card-title">{{ products!.name }}</h5>
+                <p class="card-text">Id: {{ products!.productId }}</p>
+                <p class="card-text">Name: {{ products!.name }}</p>
+                <p class="card-text">Price: {{ products!.price }}</p>
+                <p class="card-text">Description: {{ products!.description}}</p>
+                <p class="card-text">On Hand: {{ products!.onHand }}</p>
+            </div>
+            <button type="submit" (click)="onEditProduct(products!)" class=btn btn-primary>Edit</button>
+            <button type="submit" (click)="onDeleteProduct(products!)" class=btn btn-primary>Delete</button>
+        </div>
+
+    </div>
+</div>
+<app-edit-product *ngIf="editProducts" [product]="editProducts"></app-edit-product>
+<app-delete-product *ngIf="deleteProduct" [product]="deleteProduct"></app-delete-product>
